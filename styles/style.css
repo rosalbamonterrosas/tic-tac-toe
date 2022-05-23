@@ -1,0 +1,32 @@
+body {
+    background-color: pink;
+}
+
+button {
+    height: 125px;
+    width: 100%;
+    background-color: white;
+    border: transparent;
+    margin: 5px;
+}
+
+.fa-solid {
+    font-size: 60px;
+}
+
+.fa-x {
+    color: rgb(208, 81, 219);
+}
+
+.fa-o {
+    color: rgb(104, 203, 228);
+}
+
+/* Change cursor for invalid moves */
+button[disabled]:hover {
+    cursor: no-drop;
+}
+
+#play-again-button {
+    height: 60px;
+}
